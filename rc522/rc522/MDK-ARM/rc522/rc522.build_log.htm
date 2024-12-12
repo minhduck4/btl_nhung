@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: duc Admin, duc, LIC=RC93N-YQH0G-HL0CL-04XZT-KRD7Z-T1XWC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\Admin\Downloads\rc522\rc522\MDK-ARM\rc522.uvprojx
+Project File Date:  12/10/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'rc522'
+compiling main.c...
+../Core/Inc/liquidcrystal_i2c.h(61): warning:  #1295-D: Deprecated declaration HD44780_Clear - give arg types
+  void HD44780_Clear();
+../Core/Inc/liquidcrystal_i2c.h(62): warning:  #1295-D: Deprecated declaration HD44780_Home - give arg types
+  void HD44780_Home();
+../Core/Inc/liquidcrystal_i2c.h(63): warning:  #1295-D: Deprecated declaration HD44780_NoDisplay - give arg types
+  void HD44780_NoDisplay();
+../Core/Inc/liquidcrystal_i2c.h(64): warning:  #1295-D: Deprecated declaration HD44780_Display - give arg types
+  void HD44780_Display();
+../Core/Inc/liquidcrystal_i2c.h(65): warning:  #1295-D: Deprecated declaration HD44780_NoBlink - give arg types
+  void HD44780_NoBlink();
+../Core/Inc/liquidcrystal_i2c.h(66): warning:  #1295-D: Deprecated declaration HD44780_Blink - give arg types
+  void HD44780_Blink();
+../Core/Inc/liquidcrystal_i2c.h(67): warning:  #1295-D: Deprecated declaration HD44780_NoCursor - give arg types
+  void HD44780_NoCursor();
+../Core/Inc/liquidcrystal_i2c.h(68): warning:  #1295-D: Deprecated declaration HD44780_Cursor - give arg types
+  void HD44780_Cursor();
+../Core/Inc/liquidcrystal_i2c.h(69): warning:  #1295-D: Deprecated declaration HD44780_ScrollDisplayLeft - give arg types
+  void HD44780_ScrollDisplayLeft();
+../Core/Inc/liquidcrystal_i2c.h(70): warning:  #1295-D: Deprecated declaration HD44780_ScrollDisplayRight - give arg types
+  void HD44780_ScrollDisplayRight();
+../Core/Inc/liquidcrystal_i2c.h(71): warning:  #1295-D: Deprecated declaration HD44780_PrintLeft - give arg types
+  void HD44780_PrintLeft();
+../Core/Inc/liquidcrystal_i2c.h(72): warning:  #1295-D: Deprecated declaration HD44780_PrintRight - give arg types
+  void HD44780_PrintRight();
+../Core/Inc/liquidcrystal_i2c.h(73): warning:  #1295-D: Deprecated declaration HD44780_LeftToRight - give arg types
+  void HD44780_LeftToRight();
+../Core/Inc/liquidcrystal_i2c.h(74): warning:  #1295-D: Deprecated declaration HD44780_RightToLeft - give arg types
+  void HD44780_RightToLeft();
+../Core/Inc/liquidcrystal_i2c.h(75): warning:  #1295-D: Deprecated declaration HD44780_ShiftIncrement - give arg types
+  void HD44780_ShiftIncrement();
+../Core/Inc/liquidcrystal_i2c.h(76): warning:  #1295-D: Deprecated declaration HD44780_ShiftDecrement - give arg types
+  void HD44780_ShiftDecrement();
+../Core/Inc/liquidcrystal_i2c.h(77): warning:  #1295-D: Deprecated declaration HD44780_NoBacklight - give arg types
+  void HD44780_NoBacklight();
+../Core/Inc/liquidcrystal_i2c.h(78): warning:  #1295-D: Deprecated declaration HD44780_Backlight - give arg types
+  void HD44780_Backlight();
+../Core/Inc/liquidcrystal_i2c.h(79): warning:  #1295-D: Deprecated declaration HD44780_AutoScroll - give arg types
+  void HD44780_AutoScroll();
+../Core/Inc/liquidcrystal_i2c.h(80): warning:  #1295-D: Deprecated declaration HD44780_NoAutoScroll - give arg types
+  void HD44780_NoAutoScroll();
+../Core/Src/main.c(66): warning:  #1295-D: Deprecated declaration ana_erkan - give arg types
+  void ana_erkan();
+../Core/Src/main.c(122): warning:  #177-D: variable "status_str" was declared but never referenced
+  	 char status_str[4];
+../Core/Src/main.c: 22 warnings, 0 errors
+linking...
+Program Size: Code=8380 RO-data=328 RW-data=40 ZI-data=1896  
+FromELF: creating hex file...
+"rc522\rc522.axf" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Admin\Downloads\rc522\rc522\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

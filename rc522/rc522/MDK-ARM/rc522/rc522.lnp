@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"rc522\startup_stm32f103xb.o"
+"rc522\rc522.o"
+"rc522\main.o"
+"rc522\stm32f1xx_it.o"
+"rc522\stm32f1xx_hal_msp.o"
+"rc522\liquidcrystal_i2c.o"
+"rc522\stm32f1xx_hal_gpio_ex.o"
+"rc522\stm32f1xx_hal_i2c.o"
+"rc522\stm32f1xx_hal.o"
+"rc522\stm32f1xx_hal_rcc.o"
+"rc522\stm32f1xx_hal_rcc_ex.o"
+"rc522\stm32f1xx_hal_gpio.o"
+"rc522\stm32f1xx_hal_dma.o"
+"rc522\stm32f1xx_hal_cortex.o"
+"rc522\stm32f1xx_hal_pwr.o"
+"rc522\stm32f1xx_hal_flash.o"
+"rc522\stm32f1xx_hal_flash_ex.o"
+"rc522\stm32f1xx_hal_exti.o"
+"rc522\stm32f1xx_hal_spi.o"
+"rc522\stm32f1xx_hal_tim.o"
+"rc522\stm32f1xx_hal_tim_ex.o"
+"rc522\system_stm32f1xx.o"
+--strict --scatter "rc522\rc522.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "rc522.map" -o rc522\rc522.axf
